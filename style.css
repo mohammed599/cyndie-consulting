@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+body {
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+.header li {
+  float: right;
+}
+.header li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 1rem 1rem;
+}
+.header li a:hover {
+  background-color: #d0d0d0;
+}
+.header {
+  padding: 2px;
+  list-style-type: none;
+  overflow: hidden;
+}
+.footer-nav {
+  overflow: hidden;
+  list-style-type: none;
+}
+.footer-nav li {
+  float: right;
+}
+.footer-nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 16px 14px;
+  color: black;
+}
+.footer-nav li a:hover {
+  background-color: #d0d0d0;
+}
+.privacy-nav {
+  overflow: hidden;
+  list-style-type: none;
+}
+.privacy-nav li {
+  float: left;
+}
+.privacy-nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+  color: black;
+}
+.quote-marks {
+  color: #ff9f00;
+}
+.logo {
+  width: 150px;
+  height: 60px;
+  padding: 0;
+  display: inline;
+}
+.logo-link {
+  padding: none;
+}
+.logo-li {
+  float: left;
+}
+/* index page */
+.container {
+  max-width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+.bikes {
+  width: 100%;
+  height: 20rem;
+}
+.para {
+  text-align: center;
+}
+.embed-para {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+/* about.html */
+.main-about {
+  text-align: center;
+  max-width: 100vw;
+  margin: 0;
+}
+.about-header {
+  text-align: center;
+}
+.about-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  justify-content: space-between;
+}
+.about-container {
+  text-align: center;
+}
+.ink-drop {
+}
+
+/* contact html */
+.contact-container {
+  text-align: center;
+}
+.calendly-btn {
+  background-color: #ffbb4d;
+  border: 0;
+  border-radius: 2px;
+  padding: 0.8em;
+}
+.calendly-btn:hover {
+  background-color: #ffe2b3;
+}
+.calendly-btn a {
+  text-decoration: none;
+  color: black;
+}
