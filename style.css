@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 body {
   font-family: "Merriweather", serif;
-  font-size: 12px;
+  font-size: 1em;
   background-color: #fafafa;
 }
 .header li {
@@ -106,8 +106,6 @@ body {
 .about-container {
   text-align: center;
 }
-.ink-drop {
-}
 
 /* contact html */
 .contact-container {
@@ -125,4 +123,25 @@ body {
 .calendly-btn a {
   text-decoration: none;
   color: black;
+}
+/* blog styles */
+.blog-container {
+  width: 100vw;
+  text-align: center;
+}
+.blog {
+  text-align: center;
+  max-width: 45em;
+  max-height: 26em;
+  overflow: hidden;
+  margin: auto;
+}
+.blog-title {
+  text-decoration: underline;
+}
+.read-more {
+  max-width: auto;
+  padding: 1em;
+  margin: 1em auto;
+  background-color: #ffbb4d;
 }
