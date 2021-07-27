@@ -73,7 +73,7 @@ body {
 }
 .bikes {
   width: 100%;
-  height: 20rem;
+  height: 22rem;
 }
 .para {
   text-align: center;
@@ -132,7 +132,7 @@ body {
 .blog {
   text-align: center;
   max-width: 45em;
-  max-height: 26em;
+  max-height: 26.5em;
   overflow: hidden;
   margin: auto;
 }
@@ -144,4 +144,15 @@ body {
   padding: 1em;
   margin: 1em auto;
   background-color: #ffbb4d;
+}
+.show-less {
+  max-width: auto;
+  padding: 1em;
+  margin: 1em auto;
+  background-color: #ffbb4d;
+}
+ol li {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: large;
 }
